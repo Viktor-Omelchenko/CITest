@@ -6,10 +6,10 @@ branches:
   only:
     - main
 
-build: off
+build: on
 
 install:
-    - java -jar ./artifacts/app-mbank.jar &
+    - java -jar ./artifacts/app-mbank.jar 
 
 build_script:
   - ./gradlew test --info
