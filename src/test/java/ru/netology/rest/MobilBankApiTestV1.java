@@ -18,13 +18,6 @@ public class MobilBankApiTestV1 {
                 .then()
                 .statusCode(200);
 
-
-
-
-
     }
-
-
-
-
 }
+
